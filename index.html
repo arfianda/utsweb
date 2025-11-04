@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login - Toko Buku</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-light d-flex align-items-center vh-100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card shadow-sm p-4">
+            <div class="text-center mb-3">
+              <img src="assets/logo.png" alt="logo" width="90" />
+              <h4 class="mt-2">Toko Buku - Login</h4>
+              <p class="text-muted">
+                Login menggunakan akun dari file <code>js/data.js</code>
+              </p>
+            </div>
+            <form id="loginForm">
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-primary">Login</button>
+              </div>
+            </form>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
