@@ -24,5 +24,11 @@ Petunjuk singkat:
 1. Buka index.html, login dengan salah satu akun di atas.
 2. Setelah login, akan diarahkan ke dashboard. Navigation menyesuaikan role:
    - Admin: lihat menu "Informasi Stok / Katalog" (stok.html) untuk kelola buku.
+   ![](imgdocs/admin.png)
+   
    - User: gunakan "Pemesanan" (checkout.html) dan "Tracking" (tracking.html).
+
+   ![](imgdocs/checkout.png)
+
+   ![](imgdocs/tracking.png)
 3. Semua aksi bersifat simulasi (client-side). Data tersimpan hanya di memori halaman (sessionStorage).
